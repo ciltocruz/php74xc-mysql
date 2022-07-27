@@ -13,6 +13,11 @@ RUN apt-get update -y && apt-get install -y \
     libonig-dev \
     libxml2-dev \
     libzip-dev \
+    libmariadb-dev-compat \
+    libmariadb-dev \
+    default-mysql-client \ 
+    mariadb-client \ 
+    mariadb-server \
     zip \
     unzip \
     libpq-dev
